@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>PIRATE CREATOR</title>
+    </head>
+    <body>
+        <form method = 'POST' action = '/pirates'>
+          <p>  <label> Pirate Name </label> <input type="text" name="pirate[name]" id = "pirate_name">
+          <p>  <label> Pirate Weight </label> <input type="text" name="pirate[weight]" id = "pirate_weight">
+          <p>  <label> Pirate Height </label> <input type="text" name="pirate[height]" id = "pirate_height">
+          <p>  <label> First Ship Name </label> <input type="text" name="pirate[ships][][name]" id = "ship_name_1">
+          <p>  <label> First Ship Type </label> <input type="text" name="pirate[ships][][type]" id = "ship_type_1">
+          <p>  <label> First Ship Booty </label> <input type="text" name="pirate[ships][][booty]" id = "ship_booty_1">
+          <p>  <label> Second Ship Name </label> <input type="text" name="pirate[ships][][name]" id = "ship_name_2">
+          <p>  <label> Second Ship Type </label> <input type="text" name="pirate[ships][][type]" id = "ship_type_2">
+          <p>  <label> Second Ship Booty </label> <input type="text" name="pirate[ships][][booty]" id = "ship_booty_2">
+          <p><input type="submit" id= "Submit"></p>
+        </form>
+    </body>
+</html>
